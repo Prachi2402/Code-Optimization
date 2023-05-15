@@ -9,7 +9,7 @@ It takes input.txt file as input which contains the three address code in quadru
 - Dead Code Elimination - It is a technique used in computer programming to remove portions of code that are not needed or do not have any effect on the output of the program. Dead code refers to the code that is never executed during the runtime of the program or is executed but has no effect on the output of the program. This code can be the result of unused variables, unreachable code, or redundant code. Dead code elimination can be an essential optimization technique in software development because it can reduce the size of the program, improve its performance, and make it easier to maintain. By removing the 
 dead code, the compiler can produce more efficient code, which can result in faster program execution and smaller executable files.
 
-# Methdology and Techniques
+# Methodology and Techniques
 1. The given code is a Python program that takes input text from the user, writes it to a file named "input.txt", reads the file, performs constant folding optimization on the code present in the file and prints the intermediate output of the optimization, and then performs dead code elimination and prints the final optimized code.
 2. The program first prompts the user to enter the text and then uses a while loop to read each line of the input until it encounters an EOFError. The input lines are then appended to a list named "text_input" and joined together using the "\n" separator to form a single string "text_input_str".
 3. The program then opens a file named "input.txt" in write mode and writes the text input to the file. It then reopens the same file in read mode and reads the lines of the file into a list named "list_of_lines".
