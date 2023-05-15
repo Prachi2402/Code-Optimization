@@ -1,0 +1,1 @@
+fout = open("output.txt","w")
